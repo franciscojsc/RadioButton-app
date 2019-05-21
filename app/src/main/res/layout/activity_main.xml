@@ -8,6 +8,50 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/qual_comida_preferida"
+    android:textSize="20sp"/>
 
+    <RadioGroup
+        android:id="@+id/RadioGroup_comidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton_lasanha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lasanha" />
+
+        <RadioButton
+            android:id="@+id/radioButton_parmegiana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Parmegiana" />
+
+        <RadioButton
+            android:id="@+id/radioButton_macarrao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Macarrão" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_escolher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Escolher"/>
+
+    <TextView
+        android:id="@+id/text_exibicao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
